@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Avengers</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                Avengers Registration Form
+            </h1>
+            <label>Name: </label>
+            <input type="text" class="textbox" placeholder="Enter your Name here">
+            <br>
+            <label>Age: </label>
+            <input type="number" class="textbox" placeholder="Enter your Age">
+            <div class="grid">
+                <div>
+                    <label>Are You Immortal: </label>
+                </div>
+                <div>
+                    <input type="radio" name="radio" class="radio"> Yes
+                    <input type="radio" name="radio" class="raido" checked> No
+                </div>
+                <div>
+                    <label>Physical Attribute: </label>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" name="CheckBox" class="checkbox"> Durablity<br>
+                    <input type="checkbox" name="CheckBox" class="checkbox"> Strength<br>
+                    <input type="checkbox" name="CheckBox" class="checkbox"> Stamina<br>
+                    <input type="checkbox" name="CheckBox" class="checkbox"> Other<br>
+                </div>
+            </div>
+            <div class="grid2">
+                <label>Your Favourite Abenger</label>
+                <select name="Avengers" id="Avengers">
+                    <option></option>
+                    <option>Iron Man</option>
+                        <option>Captain America</option>
+                        <option>Falcon</option>
+                        <option>Vision</option>
+                        <option>Spider Man</option>
+                        <option>Doctor Strange</option>
+                        <option>Hawkeye</option>
+                        <option>Black Widow</option>
+                        <option>Thor</option>
+                        <option>Hulk</option>
+                        <option>Winter soldier</option>
+                        <option>Ant Man</option>
+                        <option>Other</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <label>Any comments</label>
+            <textarea id="comment" placeholder="Type Your Comment Here"></textarea> 
+            <div class="btn">
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Submit
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
